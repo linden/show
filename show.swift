@@ -19,6 +19,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
 		let url = URL(string: CommandLine.arguments[1])!
 		
        	window.makeKeyAndOrderFront(nil)
+		window.orderFrontRegardless()
 	   	window.center()
 		
 		window.delegate = self
